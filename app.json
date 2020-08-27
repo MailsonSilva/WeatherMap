@@ -1,0 +1,12 @@
+{
+  "name": "WeatherMap",
+  "displayName": "WeatherMap",
+  "expo": {
+    "name": "WeatherMap",
+    "slug": "WeatherMap",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
