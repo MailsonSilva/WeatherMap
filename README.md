@@ -1,6 +1,9 @@
-# WeatherMap
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="gitimg/logo.svg" width="250px" /> 
+    # WeatherMap
+</h1>
+
+<h1 align="center">
+  <img alt="WeatherMap" title="#NextLevelWeek" src="https://github.com/MailsonSilva/WeatherMap/blob/master/readme/video-app.gif" /> 
 </h1>
 
 <h4 align="center"> 
