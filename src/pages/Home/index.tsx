@@ -16,7 +16,7 @@ import {
   ButtonRefresh
 } from './styles';
 import DataNow from '../../components/DataNow';
-
+import DayReport from '../../components/DayReport';
 
 const Home: React.FC = () => {
   const [location, setLocation] = useState<[number, number]>([0,0]);
@@ -25,6 +25,8 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     loadPosition();
+    console.log(weather);
+
   }, []);
 
   const loadPosition = async() => {
@@ -102,7 +104,8 @@ const Home: React.FC = () => {
           </ButtonRefresh>
 
           <InfoLocation>
-            <DataNow weather={weather} location={location} />
+            <DataNow weather={weather} />
+            <DayReport weather={weather} />
           </InfoLocation>
         </>
       )}

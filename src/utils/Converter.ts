@@ -1,3 +1,5 @@
+import { format } from 'date-fns';
+
 export function kelvinToCelcius<Number>(kelvin: number, fixed = 1) {
   const result = (kelvin - 273.15).toFixed(fixed);
 
@@ -5,7 +7,7 @@ export function kelvinToCelcius<Number>(kelvin: number, fixed = 1) {
 }
 
 export function normalizeDate<Number>(unixtimestamp: number) {
-  const date = new Date(unixtimestamp * 1000).toLocaleDateString();
+  const date = format(new Date(unixtimestamp * 1000), 'dd/MM/yy') //.toLocaleDateString();
 
   return date;
 }

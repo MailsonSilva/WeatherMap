@@ -3,7 +3,7 @@ export default interface IWeatherResponse {
   lon: number;
   timezone: string;
   timezone_offset: number;
-  current: { 
+  current: {
     dt: Date;
     sunrise: number;
     sunset: number;

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "date-fns": "^2.16.1",
     "expo": "~38.0.9",
     "expo-location": "~8.2.1",
     "expo-splash-screen": "^0.3.1",

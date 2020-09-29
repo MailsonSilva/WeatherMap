@@ -29,7 +29,7 @@ export const IconRefresh = styled(Icon)`
 
 export const ViewMap = styled.View`
   width: 100%;
-  height: 60%;
+  height: 70%;
 `;
 
 export const Map = styled(MapView)`
@@ -40,7 +40,8 @@ export const Map = styled(MapView)`
 export const InfoLocation = styled.View`
   flex:1;
   width: 100%;
-  background-color: #130f40;
+  flex-direction: row;
+  background-color: #4f4e96;
 `;
 
 
